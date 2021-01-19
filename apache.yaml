@@ -1,0 +1,14 @@
+- hosts: apache2
+  tasks:
+  - name: installing apache2 in server
+    apt: name=apache2 update_cache2=yes state=latest
+  
+  - name: stopped apache2
+    service:
+      name: apache2
+      state: stopped
+
+  - name: stopped apache2
+    service:
+      name: apache2
+      state: stopped
