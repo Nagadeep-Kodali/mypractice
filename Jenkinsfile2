@@ -19,7 +19,7 @@ stage ('Build')
 {
     steps
     {
-       sh "cd /home/ubuntu/workspace/myproject1/account-service ; mvn clean install " 
+       sh "cd /home/ubuntu/workspace/myproject2/customer-service ; mvn clean install " 
     }
 }
  
